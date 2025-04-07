@@ -16,6 +16,8 @@
   "author": "Filip Bengtegård Book",
   "license": "MIT",
   "dependencies": {
+    "geckodriver": "^5.0.0",
+    "selenium-webdriver": "^4.31.0",
     "underscore": "^1.13.7"
   },
   "devDependencies": {
