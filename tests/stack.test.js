@@ -4,6 +4,9 @@ test('peek on empty stack returns undefined', () => {
     expect(stack.peek()).toBeUndefined();
 });
 
+test('pop on empty stack returns undefined', () => {
+    expect(stack.pop()).toBeUndefined();
+});
 
 test('peek on stack with one element returns that element', () => {
     stack.push(1);
@@ -27,9 +30,5 @@ test('pop on stack returns the top element and removes it', () => {
     const poppedElement = stack.pop();
 
     expect(poppedElement).toBeDefined();
-    expect(poppedElement).toBe(2);
-});
-
-test('pop on empty stack returns undefined', () => {
-    expect(stack.pop()).toBeUndefined();
+    expect(poppedElement).toBe(3);
 });

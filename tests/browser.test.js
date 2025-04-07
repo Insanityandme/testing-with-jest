@@ -47,7 +47,7 @@ describe('Clicking "Poppa stacken!"', () => {
 
         let popText = await popAlert.getText();
 
-        expect(popText).toEqual("Tog bort 20"); 
+        expect(popText).toEqual("Tog bort 10"); 
 
         await popAlert.accept();
     });
